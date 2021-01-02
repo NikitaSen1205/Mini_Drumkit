@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-image: url('gettyimages-1032679032-612x612.jpg');    
+}
+
+h1{
+    color: brown;
+    font-size: 6rem;
+    text-shadow: 3px 0 silver;
+}
+
+.drum{
+    outline: none;
+    font-size: 5rem;
+    color: silver;
+    font-weight: bold;
+    text-shadow: 4px 0 burlywood;
+    text-align: center;
+    border: 5px solid burlywood;
+    border-radius: 3px;
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px;
+    display: inline-block;
+    background-color: black;
+}
+
+.set{
+    margin: 10px auto;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 white;
+    opacity: 0.6;
+}
